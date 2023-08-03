@@ -1,0 +1,21 @@
+h2
+{
+	font-style:italic;
+	color:#04077D;
+	font-size:175%;
+}
+input
+{
+	font-size:100%;
+	font-style:italic;
+}
+label
+{
+	font-size:125%
+}
+body
+{
+	margin:2%;
+	border:3px solid #04077D;
+	padding:2%;
+}

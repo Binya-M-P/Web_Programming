@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+		<script>
+			var y
+			function leapyear(y)
+			{
+				if((y%100==0 && y%400==0) || (y%100!=0 && y%4==0))
+				{
+					document.write(y+" is a leap year.")
+				}
+				else
+				{
+					document.write(y+" is Not an leap year .")
+				}
+			}
+			leapyear(2022)
+		</script>
+	</body>
+</html>

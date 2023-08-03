@@ -1,0 +1,123 @@
+<html>
+	<head>
+		<title>STUDENT REGISTRATON FORM</title>
+		<style>
+			h1
+			{
+				text-align:center;
+			}
+			
+		</style>
+		<link rel="stylesheet" href="rcss.css">
+	</head>
+	<body style="background-color:#E0FBE8">
+		<h1>Students Registration<h1>
+		<h2>Basic Information</h2>
+		<label>Full Name :</label>
+		<input type="taxt" id="fname" name="fname" value="First name">
+		<input type="taxt" id="lname" name="lname" value="Last name"><br><br>
+		
+		<label for="pno">Mobile Number :</label>
+		<input type="text" id="pno" name="pno" value="+91"><br><br>
+		
+		<label for="email">E-mail :</label>
+		<input type="email" id="email" name="email"><br><br>
+		
+		<label for="dob">Birth Date :</label>
+		<input type="date" id="dob" name="dob"><br><br>
+		
+		<label>Gender :</label>
+		<input type="radio" id="fm" name="gender" value="fm">
+		<label for="fm">Female</label>
+		
+		<input type="radio" id="m" name="gender" value="m">
+		<label for="m">Male</label>
+		
+		<input type="radio" id="other" name="gender" value="other">
+		<label for="other">Other</label><br>
+		
+		<label for="relegion">Religion :</label>
+			<select id="religion" name="option"><!--multiple used chose multiple values-->
+				<option value="hindu">Hindu</option>
+				<option value="christian">christian</option>
+				<option value="muslim">muslim</option>
+				<option value="others">others</option>
+			</select><br><br>
+		
+		<h3>PERMENENT ADDRESS</h3>
+		<textarea name="address" rows="8%" cols="30%">Address</textarea><br>
+		<label for="state">State :</label>
+		<input type="text" id="state" name="state"><br>
+		<label for="country">Country :</label>
+		<input type="text" id="country" name="country"><br><br>
+		
+		<h3>PRESENT ADDRESS</h3>
+		<textarea name="address" rows="8%" cols="30%">Address</textarea><br>
+		<label for="state">State :</label>
+		<input type="text" id="state" name="state"><br>
+		<label for="country">Country :</label>
+		<input type="text" id="country" name="country"><br><br>
+		
+		<label>Father's Name :</label>
+		<input type="taxt" id="ffname" name="ffname" value="First name">
+		<input type="taxt" id="flname" name="flname" value="Last name">
+		<label for="fpno">Mobile Number :</label>
+		<input type="text" id="fpno" name="fpno" value="+91"><br><br>
+		
+		
+		<label>Mother's Name :</label>
+		<input type="taxt" id="mfname" name="mfname" value="First name">
+		<input type="taxt" id="mlname" name="mlname" value="Last name">
+		<label for="mpno">Mobile Number :</label>
+		<input type="text" id="mpno" name="mpno" value="+91"><br><br>
+		
+		<label>Father Occupation :</label>
+		<input type="taxt" id="fo" name="fo" value="Occupation">
+		<label>Mother Occupation :</label>
+		<input type="taxt" id="mo" name="mo" value="Occupation"><br><br>
+		
+		
+		<label for="guardian">Name of Guardian :</label>
+		<input type="text" id="guardian" name="guardian"><br><br>
+		
+		<label for="rguardian">Relatonship with Guardian :</label>
+		<input type="text" id="rguardian" name="rguardian" value="Father"><br><br>
+		
+		<label for="gpno">Mobile Number of guardian :</label>
+		<input type="text" id="gpno" name="gpno" value="+91"><br><br>
+
+		
+		
+		<h2>Academic Background</h2>
+		
+		<label for="10m">10th Mark :</label>
+		<input type="text" id="10m" name="10m"><br><br>
+		
+		<label for="sslc">SSLC cetrificate:</label>
+		<input type="file" id="sslc" name="sslc"><br><br>
+		
+		<label for="12m">12th Mark :</label>
+		<input type="text" id="12m" name="12m"><br><br>
+		
+		<label for="+2">+2 cetrificate:</label>
+		<input type="file" id="+2" name="+2"><br><br>
+		
+		<label for="dpgm">Select your Degree Program :</label>
+			<select id="dpgm" name="option">
+				<option value="bca" selected>Bca</option>
+				<option value="bsccs">Bsc Computer science</option>
+				<option value="bscm">Bsc Mathemetics</option>
+				<option value="bcsp">Bsc Physics</option>
+			</select><br><br>
+		
+		<label for="degree">Degree Mark :</label>
+		<input type="text" id="degree" name="degree"><br><br>
+		
+		<label for="degreem">Degree Marklist:</label>
+		<input type="file" id="degreem" name="degreem"><br><br>
+		
+		
+		<input type="submit" value="submit">
+		<input type="reset">
+	</body>
+</html>

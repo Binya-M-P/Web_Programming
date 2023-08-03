@@ -1,0 +1,67 @@
+<html>
+	<head>
+		<title>Form Validation</title>
+		<style>
+			body
+			{
+				border:3px solid #0e0e82;
+				padding:3%;
+			}
+			h1
+			{
+				text-align:center;
+				color:#05059c;
+			}
+		</style>
+	</head>
+	<body  style="background-color:#cfd1d0 ">
+		<script>
+			function fv()
+			{
+				var x=document.nm.fname.value;
+				var y=document.nm.lname.value;
+				var z=document.nm.email.value;
+				x1=document.nm.pw.value;
+				x2=document.nm.cpw.value;
+				if(x==null || x=="")
+				{
+					alert("The name field should not be blank")
+				}
+				else if(y==null || y=="")
+				{
+					alert("The last name field should not be blank")
+				}
+				else if(z==null || z=="")
+				{
+					alert("The email field should not be blank")
+				}
+				else if(x1==null || x1=="")
+				{
+					alert("The password feild should not be blank.")
+				}
+				else if(x1.length<8)
+				{
+					alert("Password length should be at minimum of 8")
+				}
+				else if(x2==null || x2=="")
+				{
+					alert("The comfirm password field should not be blank")
+				}
+				else if(x2!=x1)
+				{
+					alert("The password and confirm password are not same")
+				}
+			}
+		</script>
+		<br><br><br><h1>REGISTRATION FORM</h1>
+		<form name="nm" onsubmit="fv()">
+			First Name:<input type="text" name="fname">
+			<input type="text" name="lname"></br><br>
+			Email ID :<input type="email" name="email"></br><br>
+			Password:<input type="password" name="pw"><br><br>
+			Confirm Password:<input type="password" name="cpw"><br><br>
+			<input type="submit" value="SUBMIT">
+			
+		</form>
+	</body>
+</html>

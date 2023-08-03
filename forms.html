@@ -1,0 +1,83 @@
+<head>
+	<head>
+		<title>Form Example</title>
+	</head>
+	<body>
+		<form>
+			<h1>HTML FORM</h1>
+			<h3>Text Box</h3>
+			<label for="fname">First Name : </label><br>
+			<input type="text" id="fname" name="fmane" value="Amal"><br>
+			<label for="lname">Second Name : </label><br>
+			<input type="text" id="lname" name="lname" value="Jyothi"><br><br><br>
+			<h3>Radio Button</h3>
+			<input type="radio" id="html" name="favlang" value="html">
+			<label for="html">HTML</label><br>
+			<input type="radio" id="c" name="favlang" value="c">
+			<label for="c">C</label><br>
+			<input type="radio" id="python" name="favlang" value="python">
+			<label for="python">Python</label><br>
+			<input type="radio" id="css" name="favlang" value="css">
+			<label for="css">css</label><br>
+			<input type="radio" id="ds" name="favlang" value="ds">
+			<label for="ds">ds</label>
+			<br><br><br>
+			
+			<h3>Checkbox</h3>
+			<input type="checkbox" id="vehicle1" name="vehicle1" value="Buggati">
+			<label for="vehicle1">Buggati</label><br>
+			<input type="checkbox" id="vehicle2" name="vehicle2" value="bmw">
+			<label for="vehicle2">BMW</label><br>
+			<input type="checkbox" id="vehicle3" name="vehicle3" value="Ferrari">
+			<label for="vehicle3">Ferrari</label><br>
+			<input type="checkbox" id="vehicle4" name="vehicle4" value="Kai">
+			<label for="vehicle4">Kia</label><br>
+			<input type="checkbox" id="vehicle5" name="vehicle5" value="RollsRoyce">
+			<label for="vehicle5">Rolls Royce</label><br>
+			
+			<h3>drop down</h3>
+			<label for="phone">Select your phone</label>
+			<select id="phone" name="option" size="3" multiple><!--multiple used chose multiple values-->
+				<option value="apple">Apple</option>
+				<option value="Samsung">samsung</option>
+				<option value="Oppo">Oppo</option>
+				<option value="vivo" selected>vivo</option>
+				<option value="realme">realme</option>
+			</select><br><br>
+			
+			<h3>Text area</h3>
+			<textarea name="msg" rows="10" cols="10">the fox is running in forest</textarea><br><br>
+			
+			<h3>button</h3>
+			<button type="button" onclick="alert('hello')">Clickme</button><br><br>
+			
+			<h3>Data list</h3>
+			<input list="fruits">
+				<datalist id="fruits">
+					<option value="apple">
+					<option value="Banana">
+					<option value="cherry">
+					<option value="Orange">
+					<option value="Grapes">
+				</datalist>
+			<br>
+			
+			<h3>username and password</h3>
+			<label for="username">Username</label>
+			<input type="text" id="username" name="username"><br><br>
+			<label for="password">password</label>
+			<input type="password" id="password" name="password"><br>
+			
+			
+			<label for="dob">Birthday :</label>
+			<input type="date" id="dob" name="dob"><br>
+			
+			<label for="email">Enter emailid : </label>
+			<input type="email" id="emai" name="email"><br>
+			<br><br><br>
+			<h3>Submit Button</h3>
+			<input type="submit" value="submit">
+			
+		</form>
+	</body>
+</head>
